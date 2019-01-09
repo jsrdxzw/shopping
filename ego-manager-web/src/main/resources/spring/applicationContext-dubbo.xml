@@ -14,4 +14,6 @@
    
    <!-- spring容器中存在一个远程服务的代理对象 -->
     <dubbo:reference interface="com.natsuki.ego.rpc.service.ItemService" id="itemServiceProxy"/>
+
+    <dubbo:reference interface="com.natsuki.ego.rpc.service.ItemCatService" id="itemCatServiceProxy"/>
 </beans>

@@ -18,5 +18,7 @@
 	 
 	 <!-- 发布dubbo服务 -->
 	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemService" ref="itemServiceImpl"/>
+
+	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemCatService" ref="itemCatServiceImpl"/>
 	 
 </beans>
