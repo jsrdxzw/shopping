@@ -4,6 +4,8 @@ import com.natsuki.ego.beans.EgoResult;
 import com.natsuki.ego.beans.PageResult;
 import com.natsuki.ego.rpc.pojo.TbItem;
 
+import java.util.List;
+
 /**
  * @Author: xuzhiwei
  * @Date: 2019-01-08
@@ -19,5 +21,19 @@ public interface ItemService {
      */
     PageResult<TbItem> selectItemList(Integer page, Integer rows);
 
-    public EgoResult updateItemStatus();
+    /**
+     * 完成商品的上下架的状态修改
+     * @param itemIds 商品的id集合
+     * @param flag true 上架 false下架
+     * @return 返回结果
+     */
+    EgoResult updateItemStatus(List<Long> itemIds, Boolean flag);
+
+    /**
+     * 删除商品
+     * @param itemIds 商品的id
+     * @return 返回结果
+     */
+    EgoResult deleteItem(List<Long> itemIds);
+
 }

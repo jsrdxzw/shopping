@@ -11,7 +11,7 @@ public class EgoResult implements Serializable {
 
 
     /**
-     * 相应状态
+     * 响应状态
      */
     private Integer status;
     private Object data;
