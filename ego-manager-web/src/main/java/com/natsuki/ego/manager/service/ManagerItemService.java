@@ -24,21 +24,21 @@ public interface ManagerItemService {
     /**
      * 商品信息的上架
      * @param ids 商品id
-     * @return
+     * @return 返回包装对象
      */
     EgoResult reshelfItem(Long[] ids);
 
     /**
      * 商品信息的下架
      * @param ids
-     * @return
+     * @return 返回包装对象
      */
     EgoResult instockItem(Long[] ids);
 
     /**
      * 删除商品
      * @param ids
-     * @return
+     * @return 返回包装对象
      */
     EgoResult deleteItem(Long[] ids);
 
@@ -48,4 +48,13 @@ public interface ManagerItemService {
      * @return 图片上传后的返回对象
      */
     PictureResult uploadItemPic(MultipartFile file);
+
+    /**
+     * 完成商品信息的添加
+     * @param item 商品对象
+     * @param desc 商品描述
+     * @return 返回包装对象
+     */
+    EgoResult saveItem(TbItem item,String desc);
+
 }

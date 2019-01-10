@@ -3,6 +3,7 @@ package com.natsuki.ego.manager.service.impl;
 import com.natsuki.ego.beans.*;
 import com.natsuki.ego.manager.service.ManagerItemService;
 import com.natsuki.ego.rpc.pojo.TbItem;
+import com.natsuki.ego.rpc.pojo.TbItemDesc;
 import com.natsuki.ego.rpc.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,6 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * @Author: xuzhiwei
@@ -86,5 +88,26 @@ public class ManagerItemServiceImpl implements ManagerItemService {
             pictureResult.setMessage("error");
         }
         return pictureResult;
+    }
+
+    @Override
+    public EgoResult saveItem(TbItem item, String desc) {
+
+        //给item封装数据,分库分表不能自增id,需要自己产生商品的id，满足后期的分库分表
+        long id = IDUtils.genItemId();
+        item.setId(id);
+        item.setStatus((byte) 1);
+        Date date = new Date();
+        item.setCreated(date);
+        item.setUpdated(date);
+
+        //创建商品描述对象
+        TbItemDesc itemDesc = new TbItemDesc();
+        itemDesc.setItemDesc(desc);
+        itemDesc.setItemId(id);
+        itemDesc.setCreated(date);
+        itemDesc.setUpdated(date);
+
+        return itemServiceProxy.saveItem(item,itemDesc);
     }
 }

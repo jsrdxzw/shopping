@@ -47,4 +47,9 @@ public class ItemController {
         return managerItemService.deleteItem(ids);
     }
 
+    @RequestMapping(value = "/save",produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8")
+    @ResponseBody
+    public EgoResult itemSave(TbItem item,String desc){
+        return managerItemService.saveItem(item,desc);
+    }
 }
