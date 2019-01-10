@@ -3,6 +3,7 @@ package com.natsuki.ego.rpc.service;
 import com.natsuki.ego.beans.EgoResult;
 import com.natsuki.ego.beans.PageResult;
 import com.natsuki.ego.rpc.pojo.TbItem;
+import com.natsuki.ego.rpc.pojo.TbItemDesc;
 
 import java.util.List;
 
@@ -35,5 +36,13 @@ public interface ItemService {
      * @return 返回结果
      */
     EgoResult deleteItem(List<Long> itemIds);
+
+    /**
+     * 新增商品
+     * @param item 商品类目等基本信息
+     * @param desc 商品详细描述
+     * @return 返回结果
+     */
+    EgoResult saveItem(TbItem item, TbItemDesc desc);
 
 }

@@ -2,7 +2,9 @@ package com.natsuki.ego.manager.service;
 
 import com.natsuki.ego.beans.EgoResult;
 import com.natsuki.ego.beans.PageResult;
+import com.natsuki.ego.beans.PictureResult;
 import com.natsuki.ego.rpc.pojo.TbItem;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @Author: xuzhiwei
@@ -39,4 +41,11 @@ public interface ManagerItemService {
      * @return
      */
     EgoResult deleteItem(Long[] ids);
+
+    /**
+     * 完成图片的上传
+     * @param file 客户端传来的file信息类
+     * @return 图片上传后的返回对象
+     */
+    PictureResult uploadItemPic(MultipartFile file);
 }
