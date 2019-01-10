@@ -16,4 +16,6 @@
     <dubbo:reference interface="com.natsuki.ego.rpc.service.ItemService" id="itemServiceProxy"/>
 
     <dubbo:reference interface="com.natsuki.ego.rpc.service.ItemCatService" id="itemCatServiceProxy"/>
+
+    <dubbo:reference interface="com.natsuki.ego.rpc.service.ItemDescService" id="itemDescServiceProxy"/>
 </beans>
