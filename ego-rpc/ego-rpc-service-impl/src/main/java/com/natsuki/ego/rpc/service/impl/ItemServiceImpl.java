@@ -8,6 +8,7 @@ import com.natsuki.ego.rpc.mapper.TbItemDescMapper;
 import com.natsuki.ego.rpc.mapper.TbItemMapper;
 import com.natsuki.ego.rpc.pojo.TbItem;
 import com.natsuki.ego.rpc.pojo.TbItemDesc;
+import com.natsuki.ego.rpc.pojo.TbItemDescExample;
 import com.natsuki.ego.rpc.pojo.TbItemExample;
 import com.natsuki.ego.rpc.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -78,6 +79,26 @@ public class ItemServiceImpl implements ItemService {
     public EgoResult saveItem(TbItem item, TbItemDesc desc) {
         tbItemMapper.insert(item);
         tbItemDescMapper.insert(desc);
+        return EgoResult.ok();
+    }
+
+    @Override
+    public EgoResult updateItem(TbItem item, TbItemDesc desc) {
+        //更新商品的基本信息
+        tbItemMapper.updateByPrimaryKeySelective(item);
+
+        TbItemDescExample tbItemDescExample = new TbItemDescExample();
+        TbItemDescExample.Criteria criteria = tbItemDescExample.createCriteria();
+        criteria.andItemIdEqualTo(desc.getItemId());
+        long rows = tbItemDescMapper.countByExample(tbItemDescExample);
+
+        //判断商品是否存在描述信息
+        if (rows==0){
+            tbItemDescMapper.insert(desc);
+        } else {
+            desc.setCreated(null);
+            tbItemDescMapper.updateByPrimaryKeySelective(desc);
+        }
         return EgoResult.ok();
     }
 }

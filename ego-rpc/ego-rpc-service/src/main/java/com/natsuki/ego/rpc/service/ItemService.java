@@ -45,4 +45,11 @@ public interface ItemService {
      */
     EgoResult saveItem(TbItem item, TbItemDesc desc);
 
+    /**
+     * 更新商品
+     * @param item 商品类目等基本信息
+     * @param desc 商品详细描述
+     * @return 返回结果
+     */
+    EgoResult updateItem(TbItem item,TbItemDesc desc);
 }

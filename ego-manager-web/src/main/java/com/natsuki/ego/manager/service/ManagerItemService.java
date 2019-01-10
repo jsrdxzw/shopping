@@ -57,4 +57,12 @@ public interface ManagerItemService {
      */
     EgoResult saveItem(TbItem item,String desc);
 
+    /**
+     * 完成商品信息的更新
+     * @param item 商品对象
+     * @param desc 商品描述
+     * @return 返回包装对象
+     */
+    EgoResult updateItem(TbItem item,String desc);
+
 }

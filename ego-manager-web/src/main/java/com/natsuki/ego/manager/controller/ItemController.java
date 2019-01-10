@@ -52,4 +52,10 @@ public class ItemController {
     public EgoResult itemSave(TbItem item,String desc){
         return managerItemService.saveItem(item,desc);
     }
+
+    @RequestMapping(value = "/update",produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8")
+    @ResponseBody
+    public EgoResult itemUpdate(TbItem item,String desc){
+        return managerItemService.updateItem(item,desc);
+    }
 }

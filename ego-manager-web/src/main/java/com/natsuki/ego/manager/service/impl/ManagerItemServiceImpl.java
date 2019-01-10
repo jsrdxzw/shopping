@@ -110,4 +110,22 @@ public class ManagerItemServiceImpl implements ManagerItemService {
 
         return itemServiceProxy.saveItem(item,itemDesc);
     }
+
+    @Override
+    public EgoResult updateItem(TbItem item, String desc) {
+
+        Date date = new Date();
+
+        item.setUpdated(date);
+
+        //创建商品描述对象
+        TbItemDesc itemDesc = new TbItemDesc();
+        itemDesc.setItemDesc(desc);
+        itemDesc.setItemId(item.getId());
+        itemDesc.setCreated(date);
+        itemDesc.setUpdated(date);
+
+        //调用远程服务
+        return itemServiceProxy.updateItem(item,itemDesc);
+    }
 }
