@@ -27,4 +27,7 @@
 
 	<dubbo:service interface="com.natsuki.ego.rpc.service.ParamItemService" ref="paramItemServiceImpl"/>
 
+	<dubbo:service interface="com.natsuki.ego.rpc.service.TbContentCategoryService" ref="tbContentCategoryServiceImpl"/>
+	<dubbo:service interface="com.natsuki.ego.rpc.service.TbContentService" ref="tbContentServiceImpl"/>
+
 </beans>
