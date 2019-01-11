@@ -23,4 +23,8 @@
 
 	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemDescService" ref="itemDescServiceImpl"/>
 
+	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemParamService" ref="itemParamServiceImpl"/>
+
+	<dubbo:service interface="com.natsuki.ego.rpc.service.ParamItemService" ref="paramItemServiceImpl"/>
+
 </beans>

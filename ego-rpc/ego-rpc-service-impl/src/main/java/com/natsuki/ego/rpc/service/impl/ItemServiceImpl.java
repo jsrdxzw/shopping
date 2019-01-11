@@ -6,10 +6,8 @@ import com.natsuki.ego.beans.EgoResult;
 import com.natsuki.ego.beans.PageResult;
 import com.natsuki.ego.rpc.mapper.TbItemDescMapper;
 import com.natsuki.ego.rpc.mapper.TbItemMapper;
-import com.natsuki.ego.rpc.pojo.TbItem;
-import com.natsuki.ego.rpc.pojo.TbItemDesc;
-import com.natsuki.ego.rpc.pojo.TbItemDescExample;
-import com.natsuki.ego.rpc.pojo.TbItemExample;
+import com.natsuki.ego.rpc.mapper.TbItemParamItemMapper;
+import com.natsuki.ego.rpc.pojo.*;
 import com.natsuki.ego.rpc.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,6 +27,9 @@ public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private TbItemDescMapper tbItemDescMapper;
+
+    @Autowired
+    private TbItemParamItemMapper paramItemMapper;
 
     @Override
     public PageResult<TbItem> selectItemList(Integer page, Integer rows) {
@@ -76,9 +77,10 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public EgoResult saveItem(TbItem item, TbItemDesc desc) {
+    public EgoResult saveItem(TbItem item, TbItemDesc desc, TbItemParamItem paramItem) {
         tbItemMapper.insert(item);
         tbItemDescMapper.insert(desc);
+        paramItemMapper.insert(paramItem);
         return EgoResult.ok();
     }
 

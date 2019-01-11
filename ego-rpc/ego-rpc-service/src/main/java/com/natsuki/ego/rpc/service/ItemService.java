@@ -4,6 +4,7 @@ import com.natsuki.ego.beans.EgoResult;
 import com.natsuki.ego.beans.PageResult;
 import com.natsuki.ego.rpc.pojo.TbItem;
 import com.natsuki.ego.rpc.pojo.TbItemDesc;
+import com.natsuki.ego.rpc.pojo.TbItemParamItem;
 
 import java.util.List;
 
@@ -41,9 +42,10 @@ public interface ItemService {
      * 新增商品
      * @param item 商品类目等基本信息
      * @param desc 商品详细描述
+     * @param paramItem 商品规格参数的信息
      * @return 返回结果
      */
-    EgoResult saveItem(TbItem item, TbItemDesc desc);
+    EgoResult saveItem(TbItem item, TbItemDesc desc, TbItemParamItem paramItem);
 
     /**
      * 更新商品

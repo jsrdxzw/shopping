@@ -4,6 +4,7 @@ import com.natsuki.ego.beans.*;
 import com.natsuki.ego.manager.service.ManagerItemService;
 import com.natsuki.ego.rpc.pojo.TbItem;
 import com.natsuki.ego.rpc.pojo.TbItemDesc;
+import com.natsuki.ego.rpc.pojo.TbItemParamItem;
 import com.natsuki.ego.rpc.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -91,7 +92,7 @@ public class ManagerItemServiceImpl implements ManagerItemService {
     }
 
     @Override
-    public EgoResult saveItem(TbItem item, String desc) {
+    public EgoResult saveItem(TbItem item, String desc, String paramData) {
 
         //给item封装数据,分库分表不能自增id,需要自己产生商品的id，满足后期的分库分表
         long id = IDUtils.genItemId();
@@ -108,7 +109,14 @@ public class ManagerItemServiceImpl implements ManagerItemService {
         itemDesc.setCreated(date);
         itemDesc.setUpdated(date);
 
-        return itemServiceProxy.saveItem(item,itemDesc);
+        //创建规格参数
+        TbItemParamItem tbItemParamItem = new TbItemParamItem();
+        tbItemParamItem.setItemId(id);
+        tbItemParamItem.setParamData(paramData);
+        tbItemParamItem.setCreated(date);
+        tbItemParamItem.setUpdated(date);
+
+        return itemServiceProxy.saveItem(item,itemDesc,tbItemParamItem);
     }
 
     @Override
