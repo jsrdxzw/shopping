@@ -29,4 +29,9 @@ public class ItemCatServiceImpl implements ItemCatService {
         criteria.andParentIdEqualTo(id);
         return tbItemCatMapper.selectByExample(tbItemCatExample);
     }
+
+    @Override
+    public List<TbItemCat> getItemCatList() {
+        return tbItemCatMapper.selectByExample(new TbItemCatExample());
+    }
 }

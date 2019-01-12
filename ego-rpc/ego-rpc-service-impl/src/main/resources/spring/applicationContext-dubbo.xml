@@ -19,7 +19,7 @@
 	 <!-- 发布dubbo服务 -->
 	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemService" ref="itemServiceImpl"/>
 
-	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemCatService" ref="itemCatServiceImpl"/>
+	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemCatService" ref="itemCatServiceImpl" timeout="10000"/>
 
 	<dubbo:service interface="com.natsuki.ego.rpc.service.ItemDescService" ref="itemDescServiceImpl"/>
 
@@ -28,6 +28,6 @@
 	<dubbo:service interface="com.natsuki.ego.rpc.service.ParamItemService" ref="paramItemServiceImpl"/>
 
 	<dubbo:service interface="com.natsuki.ego.rpc.service.TbContentCategoryService" ref="tbContentCategoryServiceImpl"/>
-	<dubbo:service interface="com.natsuki.ego.rpc.service.TbContentService" ref="tbContentServiceImpl"/>
+	<dubbo:service interface="com.natsuki.ego.rpc.service.TbContentService" ref="tbContentServiceImpl" timeout="10000"/>
 
 </beans>

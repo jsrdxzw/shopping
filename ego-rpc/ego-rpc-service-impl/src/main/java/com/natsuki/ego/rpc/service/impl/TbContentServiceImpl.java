@@ -53,4 +53,17 @@ public class TbContentServiceImpl implements TbContentService {
         }
         return null;
     }
+
+    @Override
+    public List<TbContent> selectTbContentByCid(Long cid) {
+        try {
+            TbContentExample tbContentExample = new TbContentExample();
+            TbContentExample.Criteria criteria = tbContentExample.createCriteria();
+            criteria.andCategoryIdEqualTo(cid);
+            return contentMapper.selectByExampleWithBLOBs(tbContentExample);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

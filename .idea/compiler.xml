@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="egocommon" />
         <module name="egomanagerweb" />
+        <module name="egoportalweb" />
         <module name="egorpcmapper" />
         <module name="egorpcpojo" />
         <module name="egorpcservice" />

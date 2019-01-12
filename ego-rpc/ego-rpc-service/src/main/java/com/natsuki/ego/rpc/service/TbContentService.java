@@ -4,6 +4,8 @@ import com.natsuki.ego.beans.EgoResult;
 import com.natsuki.ego.beans.PageResult;
 import com.natsuki.ego.rpc.pojo.TbContent;
 
+import java.util.List;
+
 /**
  * @Author: xuzhiwei
  * @Date: 2019-01-11
@@ -25,4 +27,6 @@ public interface TbContentService {
      * @return
      */
     EgoResult saveTbContent(TbContent content);
+
+    List<TbContent> selectTbContentByCid(Long cid);
 }

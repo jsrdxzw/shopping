@@ -17,4 +17,10 @@ public interface ItemCatService {
      * @return 所有子节点
      */
     List<TbItemCat> getItemCatListByParentId(Long id);
+
+    /**
+     * 加载门户商品的所有类目
+     * @return
+     */
+    List<TbItemCat> getItemCatList();
 }
