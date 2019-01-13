@@ -2,205 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef23b00-5843-4430-83c7-f49224cbe01c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/BigPicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/CatNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/CatResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/controller/PortalContentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/controller/PortalItemCatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/PortalContentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/PortalItemCatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer-links.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/商品分类数据格式.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/ego.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/myjd.commentImg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/myjd.common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/myjd.info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/myjd.order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/order-commons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/passport.base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/pop_compare.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/psearch.onebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/psearch20131008.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/pshow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/purchase.2012.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/purchase.base.2012.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/purchase.checkout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/purchase.sop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/regist.personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20111221C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20120112B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20120209D.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130330A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130330A_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130330B_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130330C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130415i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130606B (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130606B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/20130725.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/2013100701.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/2013100702.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/360_flash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/360_video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/537b084eN94336622.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/541f893aN662da9bc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/541fdd63Nab1b3c63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/54238aaaN17189794.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/543b4d75N686689d7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/5440b1e4N8ff6d0fd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/5440b1e7N1ade375b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/5440ce68Na00d019e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/544a11d3Na5a3d566.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/547e6a57N75c2f016.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/549d03d0N59b1f026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/backpanel20140708.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/bg20110922.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/bg_hotsale.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/bg_prompt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/bg_thickbox.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/btn-again.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/btn-bg-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/btn-check-20140627.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/btn-submit-new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/btn-submit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/cart_corner_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/checkout-title.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/cicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/commstar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/control-icon-20140521.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/cue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/defaultImgs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/ego-logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/error-3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/error-jd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/errordog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/floor-sort20131202.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/flow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/footprint-arr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/hover-btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/icon48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/iconadd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/im20131028.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/index-jd-wx-qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/index.showcase.tg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/layer-credit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/loading-jd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/login-all-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/logo-201305.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/m-buy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/more-slide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/my_cart_title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/myjd-bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/myjd-common-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/myjd-new-ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/newicon20140417.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/one4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/one5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/one6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/order-icon-20140811.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/p-btns-20140611.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/perfect_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/phone-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/promise20141021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/purchase-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/pwdstrength.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/qr-code-sao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/qr-code-sao02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/rank-sh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/rank2014.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/regist-btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/regist-word.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/step1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/step2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/sucess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/taotao-logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/thickbox_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/tip-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/tip-cue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/toggler-arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/update.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/user_purchase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/vip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/virtuals-20140606.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/virtuals-cat-ico20140826.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/wait-btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/images/yzm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/CommentStar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/base-2011.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/base-v1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/ego.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/iplocation_server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/itemCat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/jTips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/jquery-1.6.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/jquery-extend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/jquery.checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/jquery.hashchange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/jquery.price_format.2.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/lib-v1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/order.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/webapp/js/search_main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ego-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/ItemCatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/TbContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/TbContentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/resources/spring/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/resources/spring/applicationContext-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/ItemCatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/TbContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/TbContentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/resources/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-portal-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -234,7 +40,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/resources/spring/applicationContext-dubbo.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -244,77 +50,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/TbContentService.java">
+        <entry file="file://$PROJECT_DIR$/ego-portal-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="481">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/TbContentServiceImpl.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+            <state relative-caret-position="115">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#763#776#1" expanded="true" />
+                <element signature="e#951#977#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/BigPicture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding>
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1466#1467#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1581#1582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/PortalContentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -322,23 +74,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="840">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#731#751#1" expanded="true" />
+                <element signature="e#884#910#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="477">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/resources/cache.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="21" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -347,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-dubbo.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -387,6 +147,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -404,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ego-manager-web/src/main/java/com/natsuki/ego/manager/service/ManagerItemParamService.java" />
-        <option value="$PROJECT_DIR$/ego-manager-web/src/main/java/com/natsuki/ego/manager/service/impl/ManagerItemParamServiceImpl.java" />
         <option value="$PROJECT_DIR$/ego-manager-web/src/main/java/com/natsuki/ego/manager/controller/ItemParamController.java" />
         <option value="$PROJECT_DIR$/ego-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
         <option value="$PROJECT_DIR$/ego-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" />
@@ -435,7 +194,6 @@
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/webapp/css/ego.css" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/ego-portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/ItemCatService.java" />
         <option value="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/ItemCatServiceImpl.java" />
@@ -445,16 +203,19 @@
         <option value="$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/CatNode.java" />
         <option value="$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/JsonUtils.java" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/controller/PortalItemCatController.java" />
-        <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java" />
         <option value="$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/TbContentService.java" />
         <option value="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/TbContentServiceImpl.java" />
         <option value="$PROJECT_DIR$/ego-common/src/main/java/com/natsuki/ego/beans/BigPicture.java" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentService.java" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/PortalContentService.java" />
-        <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-dubbo.xml" />
         <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/controller/PortalContentController.java" />
         <option value="$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/resources/spring/applicationContext-dubbo.xml" />
+        <option value="$PROJECT_DIR$/ego-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ego-portal-web/src/main/resources/cache.properties" />
+        <option value="$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -824,7 +585,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547297858486" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547356646891" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -920,39 +681,49 @@
       <updated>1546867275757</updated>
       <workItem from="1546867277064" duration="17288000" />
       <workItem from="1546998609847" duration="39189000" />
-      <workItem from="1547187027526" duration="14070000" />
+      <workItem from="1547187027526" duration="18933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70547000" />
+    <option name="totallyTimeSpent" value="75410000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2741148" />
+      <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.2741148" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="ZooKeeper" order="7" weight="0.26373628" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Web" order="8" sideWeight="0.50079745" side_tool="true" weight="0.2741148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35614973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3144385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32406417" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -981,52 +752,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ego-manager-web/src/main/java/com/natsuki/ego/manager/service/ManagerParamItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ego-manager-web/src/main/java/com/natsuki/ego/manager/controller/ParamItemParamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ego-manager-web/src/main/java/com/natsuki/ego/manager/controller/ItemParamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="54" column="5" selection-start-line="50" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/TbContentCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/test/java/com/natsuki/ego/test/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ego-rpc/ego-rpc-service-impl/src/main/java/com/natsuki/ego/rpc/service/impl/TbContentCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1189,13 +914,6 @@
     <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/webapp/WEB-INF/jsp/success.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ego-portal-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1137">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ego-manager-web/src/main/resources/spring/applicationContext-dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1336,16 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ego-rpc/ego-rpc-service/src/main/java/com/natsuki/ego/rpc/service/TbContentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1414,23 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/controller/PortalItemCatController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1459,6 +1150,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="117" selection-start-line="30" selection-start-column="117" selection-end-line="30" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/JedisCluster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.21.RELEASE/spring-core-4.3.21.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ego-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/resources/cache.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/params/SetParams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#731#751#1" expanded="true" />
+            <element signature="e#884#910#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ego-portal-web/src/main/java/com/natsuki/ego/portal/service/impl/PortalItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#763#776#1" expanded="true" />
+            <element signature="e#951#977#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

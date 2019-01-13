@@ -7,7 +7,10 @@ import com.natsuki.ego.portal.service.PortalItemCatService;
 import com.natsuki.ego.rpc.pojo.TbItemCat;
 import com.natsuki.ego.rpc.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
+import redis.clients.jedis.JedisCluster;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,16 +25,31 @@ public class PortalItemCatServiceImpl implements PortalItemCatService {
     @Autowired
     private ItemCatService itemCatServiceProxy;
 
+    @Value("${ITEM_CAT}")
+    private String itemCatKey;
+    @Value("${EXPIRE_TIME_IN_SECOND}")
+    private Integer expireTime;
+
+    @Autowired
+    private JedisCluster cluster;
+
     @Override
     public String loadItemCatService() {
 
-
+        String jsonStr = cluster.get(itemCatKey);
+        if (!StringUtils.isEmpty(jsonStr)){
+            return jsonStr;
+        }
         List<TbItemCat> itemCatList = itemCatServiceProxy.getItemCatList();
 
         CatResult catResult = new CatResult();
         catResult.setData(getChildren(0L,itemCatList));
         //转化为符合前端规范的格式，由于前台需要的是字符串，所以这里需要手动的转化为字符串
-        return JsonUtils.objectToJson(catResult);
+        String str = JsonUtils.objectToJson(catResult);
+        //缓存到redis
+        cluster.expire(itemCatKey,expireTime);
+        cluster.set(itemCatKey,str);
+        return str;
     }
 
     private List<?> getChildren(Long parentId, List<TbItemCat> itemCats) {
