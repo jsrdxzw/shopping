@@ -30,4 +30,5 @@
 	<dubbo:service interface="com.natsuki.ego.rpc.service.TbContentCategoryService" ref="tbContentCategoryServiceImpl"/>
 	<dubbo:service interface="com.natsuki.ego.rpc.service.TbContentService" ref="tbContentServiceImpl" timeout="10000"/>
 
+	<dubbo:service interface="com.natsuki.ego.rpc.service.TbUserService" ref="tbUserServiceImpl" timeout="10000"/>
 </beans>
