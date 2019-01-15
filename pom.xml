@@ -13,6 +13,7 @@
     <module>ego-rpc</module>
       <module>ego-manager-web</module>
     <module>ego-portal-web</module>
+      <module>ego-search-web</module>
   </modules>
 
   <name>ego</name>

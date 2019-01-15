@@ -13,6 +13,7 @@
         <module name="egorpcpojo" />
         <module name="egorpcservice" />
         <module name="egorpcserviceimpl" />
+        <module name="egosearchweb" />
       </profile>
     </annotationProcessing>
   </component>
