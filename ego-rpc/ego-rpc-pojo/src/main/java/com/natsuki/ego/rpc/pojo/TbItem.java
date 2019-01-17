@@ -18,6 +18,8 @@ public class TbItem implements Serializable {
 
     private String image;
 
+    private String[] images;
+
     private Long cid;
 
     private Byte status;
@@ -84,6 +86,10 @@ public class TbItem implements Serializable {
 
     public Long getCid() {
         return cid;
+    }
+
+    public String[] getImages(){
+        return image.split(",");
     }
 
     public void setCid(Long cid) {

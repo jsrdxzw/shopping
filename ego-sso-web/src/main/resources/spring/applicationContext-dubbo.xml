@@ -10,7 +10,7 @@
    <!-- 添加服务消费者的标志 -->
    <dubbo:application name="ego-search-sso-consumer"/>
    <!-- 指定注册中心 -->
-   <dubbo:registry address="39.105.15.234:2181,39.105.15.234:2182,39.105.15.234:2183" protocol="zookeeper" />
+   <dubbo:registry address="192.168.181.148:2181,192.168.181.148:2182,192.168.181.148:2183" protocol="zookeeper" />
 
    <dubbo:reference interface="com.natsuki.ego.rpc.service.TbUserService" id="tbUserServiceProxy"/>
 

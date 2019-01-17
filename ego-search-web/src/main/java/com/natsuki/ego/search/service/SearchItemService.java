@@ -1,5 +1,6 @@
 package com.natsuki.ego.search.service;
 
+        import com.natsuki.ego.rpc.pojo.TbItem;
         import com.natsuki.ego.search.entity.SearchResult;
 
 /**
@@ -16,4 +17,11 @@ public interface SearchItemService {
      * @return
      */
     SearchResult getItem(String itemKeywords, Integer page);
+
+    /**
+     * 查询商品的基本信息
+     * @param id 商品id
+     * @return
+     */
+    TbItem getItem(Long id);
 }

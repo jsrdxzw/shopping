@@ -3,7 +3,7 @@ package com.natsuki.ego.search.dao.impl;
 import com.natsuki.ego.search.dao.ItemDao;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.impl.CloudSolrServer;
+import org.apache.solr.client.solrj.impl.HttpSolrServer;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -17,12 +17,12 @@ import org.springframework.stereotype.Repository;
 public class ItemDaoImpl implements ItemDao {
 
     @Autowired
-    private CloudSolrServer cloudSolrServer;
+    private HttpSolrServer solrServer;
 
     @Override
     public QueryResponse getItem(SolrQuery params) {
         try {
-            return cloudSolrServer.query(params);
+            return solrServer.query(params);
         } catch (SolrServerException e) {
             e.printStackTrace();
         }

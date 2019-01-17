@@ -54,4 +54,11 @@ public interface ItemService {
      * @return 返回结果
      */
     EgoResult updateItem(TbItem item,TbItemDesc desc);
+
+    /**
+     * 查询商品的信息
+     * @param id 商品的id
+     * @return 商品
+     */
+    TbItem selectTbItem(Long id);
 }

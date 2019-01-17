@@ -8,11 +8,15 @@ import org.apache.solr.client.solrj.beans.Field;
  * @Description: 封装索引库的查询结果
  */
 public class Item {
+    @Field("id")
     private String id;
+    @Field("title")
     private String title;
     @Field("sell_point")
     private String sellPoint;
+    @Field("price")
     private Long price;
+    @Field("image")
     private String image;
     @Field("category_name")
     private String categoryName;
@@ -49,12 +53,16 @@ public class Item {
         this.price = price;
     }
 
-    public String[] getImage() {
-        return image.split(",");
+    public String getImage() {
+        return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(String images) {
         this.image = image;
+    }
+
+    public String[] getImages() {
+        return image.split(",");
     }
 
     public String getCategoryName() {
@@ -63,5 +71,17 @@ public class Item {
 
     public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;
+    }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", sellPoint='" + sellPoint + '\'' +
+                ", price=" + price +
+                ", image='" + image + '\'' +
+                ", categoryName='" + categoryName + '\'' +
+                '}';
     }
 }

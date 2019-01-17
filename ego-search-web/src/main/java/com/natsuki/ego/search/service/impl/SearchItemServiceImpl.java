@@ -1,5 +1,7 @@
 package com.natsuki.ego.search.service.impl;
 
+import com.natsuki.ego.rpc.pojo.TbItem;
+import com.natsuki.ego.rpc.service.ItemService;
 import com.natsuki.ego.search.dao.ItemDao;
 import com.natsuki.ego.search.entity.Item;
 import com.natsuki.ego.search.entity.SearchResult;
@@ -25,6 +27,10 @@ public class SearchItemServiceImpl implements SearchItemService {
 
     @Autowired
     private ItemDao itemDao;
+
+    @Autowired
+    private ItemService itemServiceProxy;
+
 
     @Override
     public SearchResult getItem(String itemKeywords, Integer page) {
@@ -81,7 +87,7 @@ public class SearchItemServiceImpl implements SearchItemService {
             //获得某个商品信息的高亮数据
             Map<String, List<String>> map = highlighting.get(id);
             List<String> title = map.get("title");
-            if (title!=null&&title.size()>0){
+            if (title != null && title.size() > 0) {
                 item.setTitle(title.get(0));
             }
         }
@@ -92,5 +98,10 @@ public class SearchItemServiceImpl implements SearchItemService {
         result.setList(list);
 
         return result;
+    }
+
+    @Override
+    public TbItem getItem(Long id) {
+        return itemServiceProxy.selectTbItem(id);
     }
 }
