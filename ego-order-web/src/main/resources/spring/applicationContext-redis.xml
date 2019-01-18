@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--实例化JedisCluster-->
+    <bean id="cluster" class="redis.clients.jedis.JedisCluster">
+        <constructor-arg name="nodes">
+            <set>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="192.168.181.158"/>
+                    <constructor-arg name="port" value="6380"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="192.168.181.158"/>
+                    <constructor-arg name="port" value="6381"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="192.168.181.158"/>
+                    <constructor-arg name="port" value="6382"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="192.168.181.158"/>
+                    <constructor-arg name="port" value="6383"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="192.168.181.158"/>
+                    <constructor-arg name="port" value="6384"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="192.168.181.158"/>
+                    <constructor-arg name="port" value="6385"/>
+                </bean>
+            </set>
+        </constructor-arg>
+        <constructor-arg name="timeout" value="6000"/>
+    </bean>
+
+</beans>

@@ -9,6 +9,7 @@
         <module name="egocommon" />
         <module name="egoitemweb" />
         <module name="egomanagerweb" />
+        <module name="egoorderweb" />
         <module name="egoportalweb" />
         <module name="egorpcmapper" />
         <module name="egorpcpojo" />
