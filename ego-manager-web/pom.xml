@@ -85,8 +85,13 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
-                    <path>/</path>
-                    <port>8080</port>
+                    <!--maven中关联的server-->
+                    <url>http://192.168.181.138:8080/manager/text</url>
+                    <server>ego-manager</server>
+                    <!--<path>/</path>-->
+                    <!--<port>8080</port>-->
+                    <path>/ROOT</path>
+                    <update>true</update>
                 </configuration>
             </plugin>
         </plugins>

@@ -107,24 +107,24 @@
     <build>
         <plugins>
             <!--指定项目的打包插件信息-->
-            <!--<plugin>-->
-                <!--<artifactId>maven-assembly-plugin</artifactId>-->
-                <!--<configuration>-->
-                    <!--&lt;!&ndash;指定打包描述文件的位置：相对项目根目录的路径&ndash;&gt;-->
-                    <!--&lt;!&ndash;assembly打包的描述文件&ndash;&gt;-->
-                    <!--<descriptor>assembly/assembly.xml</descriptor>-->
-                <!--</configuration>-->
-                <!--<executions>-->
-                    <!--&lt;!&ndash;mvn package的时候打包&ndash;&gt;-->
-                    <!--<execution>-->
-                        <!--<id>make-assembly</id>-->
-                        <!--<phase>package</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>single</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                <!--</executions>-->
-            <!--</plugin>-->
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <!--指定打包描述文件的位置：相对项目根目录的路径-->
+                    <!--assembly打包的描述文件-->
+                    <descriptor>assembly/assembly.xml</descriptor>
+                </configuration>
+                <executions>
+                    <!--mvn package的时候打包-->
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
         <!-- dubbo加载spring的配置文件的时候，是从META-INF/spring开始查找 -->
         <resources>
@@ -132,12 +132,13 @@
                 <!-- 指定从哪个文件夹拷贝 -->
                 <directory>src/main/resources/spring</directory>
                 <!-- 指定将spring配置文件拷贝到jar包中的META-INF/spring目录 -->
+                <!--用于dubbo框架去加载,它默认从META-INF/spring加载-->
                 <targetPath>META-INF/spring</targetPath>
                 <includes>
                     <include>**/*.xml</include>
                 </includes>
             </resource>
-            <!-- 其他的文件拷贝到默认的位置 -->
+            <!-- 其他的文件拷贝到默认的位置，即classpath下 -->
             <resource>
                 <!-- 指定从哪个文件夹拷贝 -->
                 <directory>src/main/resources</directory>

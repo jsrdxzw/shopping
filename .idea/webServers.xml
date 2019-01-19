@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e39ae1e5-1059-4eb2-bced-d804293272d9" name="local-nginx" url="http://192.168.181.148">
+        <fileTransfer host="192.168.181.148" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="62a2e9c2-37b2-4907-9296-f78c4118fa68" name="local-tomcat" url="http://192.168.181.138">
+        <fileTransfer host="192.168.181.138" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3cc52452-590f-4ab1-b446-0d9f4bf29a0f" name="redis+mysql" url="http://192.168.181.158">
+        <fileTransfer host="192.168.181.158" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
